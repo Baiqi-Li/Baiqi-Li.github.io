@@ -6,29 +6,29 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Zhiqiu Lin's website"
+title                    : "Baiqi Li's website"
 description              : ""
-repository               : "linzhiqiu/linzhiqiu.github.io"
+repository               : "Baiqi-Li/Baiqi-Li.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
-google_analytics_id      :  G-TJBD8863FE
+# google_analytics_id      :  G-TJBD8863FE
 
 # SEO Related
-google_site_verification :  -r2y8nhvvJAs3RkKXSvYH7Qy-fDELbfcanTS-eheMKg
+# google_site_verification :  -r2y8nhvvJAs3RkKXSvYH7Qy-fDELbfcanTS-eheMKg
 bing_site_verification   :  # get bing_site_verification from https://www.bing.com/webmasters/about
 baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
 
 # Site Author
 author:
-  name             : "Zhiqiu Lin"
+  name             : "Baiqi Li"
   avatar           : "images/profile.jpg"
-  bio              : "Ph.D. student at Carnegie Mellon University"
-  location         : "Pittsburgh, PA"
+  bio              : "Master student at East China Normal University"
+  location         : "Shanghai, China"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=TFlZ2OcAAAAJ&hl"
-  email            : "zhiqiul@andrew.cmu.edu"
+  googlescholar    : "https://scholar.google.com/citations?user=mwdpP7sAAAAJ&hl=zh-CN"
+  email            : "libaiqi123@gmail.com"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -37,13 +37,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : linzhiqiu
+  github           : 
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : zhiqiu-lin-b49ba7126
+  linkedin         : 
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
   orcid            : # e.g., "https://orcid.org/xxxx"
   pinterest        :
