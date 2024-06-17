@@ -36,7 +36,7 @@ Hello! I am **Baiqi Li(李百奇)**, and I am currently a third-year **master st
 
 **Evaluating Text-to-Visual Generation with Image-to-Text Generation**
 
-Zhiqiu Lin, [Deepak Pathak](https://www.cs.cmu.edu/~dpathak/), **Baiqi Li**, [Emily Li](https://linzhiqiu.github.io/papers/vqascore/), [Xide Xia](https://xidexia.github.io/), [Graham Neubig](https://phontron.com/), [Pengchuan Zhang\*](https://pzzhang.github.io/pzzhang/), [Deva Ramanan\*](https://www.cs.cmu.edu/~deva/)
+[Zhiqiu Lin](https://linzhiqiu.github.io/), [Deepak Pathak](https://www.cs.cmu.edu/~dpathak/), **Baiqi Li**, [Emily Li](https://linzhiqiu.github.io/papers/vqascore/), [Xide Xia](https://xidexia.github.io/), [Graham Neubig](https://phontron.com/), [Pengchuan Zhang\*](https://pzzhang.github.io/pzzhang/), [Deva Ramanan\*](https://www.cs.cmu.edu/~deva/)
 
 [Website](https://linzhiqiu.github.io/papers/vqascore/) \| [Arxiv](https://arxiv.org/pdf/2404.01291.pdf) \| [![](https://img.shields.io/github/stars/linzhiqiu/t2v_metrics?style=social&label=Code+Stars)](https://github.com/linzhiqiu/t2v_metrics)
 - We propose VQAScore, the state-of-the-art alignment metric for text-to-image/video/3D models.
@@ -49,7 +49,7 @@ Zhiqiu Lin, [Deepak Pathak](https://www.cs.cmu.edu/~dpathak/), **Baiqi Li**, [Em
 
 **GenAI-Bench: Evaluating and Improving Compositional Text-to-Visual Generation**
 
-**Baiqi Li**\*, Zhiqiu Lin\*, [Deepak Pathak](https://www.cs.cmu.edu/~dpathak/), [Emily Li](https://linzhiqiu.github.io/papers/vqascore/), Feiyi Xin, Kewen Wu, Tiffany Ling, [Xide Xia](https://xidexia.github.io/), [Pengchuan Zhang\*](https://pzzhang.github.io/pzzhang/), [Graham Neubig](https://phontron.com/), [Deva Ramanan\*](https://www.cs.cmu.edu/~deva/)
+**Baiqi Li**\*, [Zhiqiu Lin\*](https://linzhiqiu.github.io/), [Deepak Pathak](https://www.cs.cmu.edu/~dpathak/), [Emily Li](https://linzhiqiu.github.io/papers/vqascore/), Feiyi Xin, Kewen Wu, Tiffany Ling, [Xide Xia](https://xidexia.github.io/), [Pengchuan Zhang\*](https://pzzhang.github.io/pzzhang/), [Graham Neubig](https://phontron.com/), [Deva Ramanan\*](https://www.cs.cmu.edu/~deva/)
 
 [Website](https://linzhiqiu.github.io/papers/genai_bench) \| [Arxiv]() \| [HuggingFace](https://huggingface.co/datasets/BaiqiL/GenAI-Bench)
 - We conduct an extensive human study on compositional text-to-visual generation using **GenAI-Bench**, revealing limitations of leading open-source and closed-source models. 
@@ -62,7 +62,7 @@ Zhiqiu Lin, [Deepak Pathak](https://www.cs.cmu.edu/~dpathak/), **Baiqi Li**, [Em
 
 **NaturalBench: Evaluating Vision-Language Models on Natural Adversarial Samples**
 
-**Baiqi Li**\*, Zhiqiu Lin\*, Wenxuan Peng\*, Jean de Dieu Nyandwi\*, Daniel Jiang, Zixian Ma, Simran Khanuja, Ranjay Krishna, [Graham Neubig](https://phontron.com/), [Deva Ramanan\*](https://www.cs.cmu.edu/~deva/)
+**Baiqi Li**\*, [Zhiqiu Lin\*](https://linzhiqiu.github.io/), Wenxuan Peng\*, Jean de Dieu Nyandwi\*, Daniel Jiang, Zixian Ma, Simran Khanuja, Ranjay Krishna, [Graham Neubig](https://phontron.com/), [Deva Ramanan\*](https://www.cs.cmu.edu/~deva/)
 
 [Website](https://linzhiqiu.github.io/papers/naturalbench) \| [Arxiv]() \| [HuggingFace](https://huggingface.co/datasets/BaiqiL/NaturalBench) 
 - In this work, we show that VLMs still struggle with natural images and questions that humans can easily answer, which we term **natural adversarial samples**.
@@ -70,6 +70,7 @@ Zhiqiu Lin, [Deepak Pathak](https://www.cs.cmu.edu/~dpathak/), **Baiqi Li**, [Em
 - Crucially, we adopt a **vision-centric** design by pairing each question with two images that yield different answers, preventing ``blind'' solutions from answering without using the images.
 </div>
 </div>
+
 <!-- </div>
 </div>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2024</div><img src='papers/visual_gpt_score/images/teaser_small_new.png' alt="sym" width="100%"></div></div>
@@ -176,7 +177,8 @@ Zhiqiu Lin, [Deepak Pathak](https://www.cs.cmu.edu/~dpathak/), **Baiqi Li**, [Em
  [Zikai Alex Wen](https://www.cs.cornell.edu/~zkwen/), **Zhiqiu Lin**, Rowena Chen, [Erik Andersen](http://www.cs.cornell.edu/~eland/), **CHI 2019** -->
 
 # 🎖 Honors and Services
-- Reviewer: 2023 ECAI, Transactions on Intelligent Systems and Technology
+- Reviewer: 2023 ECAI, Transactions on Intelligent Systems and Technology.
+
 <!-- - *2020.06* Best Paper Nomination at CVPR'20 for [Visual Chirality](https://linzhiqiu.github.io/papers/chirality/)!
 - *2020.05* Graduated Summa Cum Laude in Computer Science and Mathematics from Cornell University, and served as college symbol bearer (top 5 of the college). -->
 <!-- - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
