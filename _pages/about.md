@@ -26,8 +26,8 @@ Hello! I am **Baiqi Li(李百奇)**, and I am currently a third-year **master st
 - *2024.06*: We proposed a **semi-automated** approach to collect a **vision-centric** benchmark, **NaturalBench**, for reliably evaluating VLMs: [NaturalBench: Evaluating Vision-Language Models on Natural Adversarial Samples]().
 - *2024.06*: 🎉🎉 Our workshop paper [GenAI-Bench: A Holistic Benchmark for Compositional Text-to-Visual Generation](https://openreview.net/forum?id=hJm7qnW3ym) has been selected for **oral** presentation at upcoming SynData4CV workshop @ CVPR2024.
 - *2024.04*: We introduced VQAScore for evaluating the prompt alignment of text-to-image/video/3D models: [Evaluating Text-to-Visual Generation with Image-to-Text Generation](https://arxiv.org/pdf/2404.01291.pdf).
-- *2023*: [Federated Learning Vulnerabilities: Privacy Attacks with Denoising Diffusion Probabilistic Models](https://dl.acm.org/doi/abs/10.1145/3589334.3645514) accepted by WWW'24. 
-- *2023*: [Federated Learning on Distributed Graphs Considering Multiple Heterogeneities](https://ieeexplore.ieee.org/abstract/document/10447691) accepted by ICASSP'24.
+- *2023*: [Federated Learning Vulnerabilities: Privacy Attacks with Denoising Diffusion Probabilistic Models](https://dl.acm.org/doi/abs/10.1145/3589334.3645514), Hongyan Gu, Xinyan Zhang, Jiang Li, Hui Wei, **Baiqi Li**, Xinli Huang, accepted by WWW'24. 
+- *2023*: [Federated Learning on Distributed Graphs Considering Multiple Heterogeneities](https://ieeexplore.ieee.org/abstract/document/10447691), **Baiqi Li**; Yedi Ma; Yufei Liu; Hongyan Gu; Zhenghan Chen; Xinli Huang, accepted by ICASSP'24.
 <!-- - *2020.06*: &nbsp;🎉🎉 Best Paper Nomination at CVPR'20 for [Visual Chirality](https://linzhiqiu.github.io/papers/chirality/)! -->
 
 # 📝 Publications 
