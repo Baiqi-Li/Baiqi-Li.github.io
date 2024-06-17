@@ -57,7 +57,7 @@ Zhiqiu Lin, [Deepak Pathak](https://www.cs.cmu.edu/~dpathak/), **Baiqi Li**, [Em
 - We will release **GenAI-Rank** with over 40,000 human ratings to benchmark methods that rank images generated from the same prompt.
 </div>
 </div>
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">In submission</div><img src='papers\naturalbench\images\tag.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">In submission</div><img src='papers\naturalbench\images\natural_teaser.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **NaturalBench: Evaluating Vision-Language Models on Natural Adversarial Samples**
@@ -68,7 +68,8 @@ Zhiqiu Lin, [Deepak Pathak](https://www.cs.cmu.edu/~dpathak/), **Baiqi Li**, [Em
 - In this work, we show that VLMs still struggle with natural images and questions that humans can easily answer, which we term **natural adversarial samples**.
 - We propose a semi-automated approach to collect a new benchmark, **NaturalBench**, for reliably evaluating VLMs with over 10,000 human-verified VQA samples.
 - Crucially, we adopt a **vision-centric** design by pairing each question with two images that yield different answers, preventing ``blind'' solutions from answering without using the images.
-
+</div>
+</div>
 <!-- </div>
 </div>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2024</div><img src='papers/visual_gpt_score/images/teaser_small_new.png' alt="sym" width="100%"></div></div>

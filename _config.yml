@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Baiqi Li"
-  avatar           : "images/profile.jpg"
+  avatar           : "images/android-chrome-192x192.png"
   bio              : "Master student at East China Normal University"
   location         : "Shanghai, China"
   employer         :
