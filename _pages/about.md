@@ -17,14 +17,14 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hello! I am Baiqi Li(李百奇), and I am currently a third-year graduate student at the School of Computer Science at East China Normal University, expecting to graduate this June. Concurrently, I am a research assistant at Carnegie Mellon University, working under the guidance of Professor [Deva Ramanan](https://www.cs.cmu.edu/~deva/). My current research focuses on computer vision and language, especially evaluating, datasets and improving multimodal generative models.
+Hello! I am **Baiqi Li(李百奇)**, and I am currently a third-year **master student** at the School of Computer Science at **East China Normal University**, expecting to graduate this June. Concurrently, I am a research assistant at **Carnegie Mellon University**, working under the guidance of Professor [Deva Ramanan](https://www.cs.cmu.edu/~deva/). My current research focuses on computer vision and language, especially evaluating, datasets and improving multimodal generative models.
 
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 # 🔥 News
-- *2024.06*: We introduced GenAI-Bench for evaluating the prompt alignment of text-to-image/video/3D models: [GenAI-Bench: Evaluating and Improving Compositional Text-to-Visual Generation]().
-- *2024.06*: We introduced NaturalBench for evaluating the prompt alignment of text-to-image/video/3D models: [NaturalBench: Evaluating Vision-Language Models on Natural Adversarial Samples]().
-- *2024.06*: 🎉🎉 Our workshop paper [GenAI-Bench: A Holistic Benchmark for Compositional Text-to-Visual Generation](https://openreview.net/forum?id=hJm7qnW3ym) have been selected for oral presentation at upcoming SynData4CV workshop @ CVPR2024.
+- *2024.06*: We introduced GenAI-Bench for evaluating the performance of leading image and video **generation models** in various aspects of compositional text-to-visual generation and **various automated evaluation metrics**.: [GenAI-Bench: Evaluating and Improving Compositional Text-to-Visual Generation]().
+- *2024.06*: We proposed a **semi-automated** approach to collect a **vision-centric** benchmark, **NaturalBench**, for reliably evaluating VLMs: [NaturalBench: Evaluating Vision-Language Models on Natural Adversarial Samples]().
+- *2024.06*: 🎉🎉 Our workshop paper [GenAI-Bench: A Holistic Benchmark for Compositional Text-to-Visual Generation](https://openreview.net/forum?id=hJm7qnW3ym) has been selected for **oral** presentation at upcoming SynData4CV workshop @ CVPR2024.
 - *2024.04*: We introduced VQAScore for evaluating the prompt alignment of text-to-image/video/3D models: [Evaluating Text-to-Visual Generation with Image-to-Text Generation](https://arxiv.org/pdf/2404.01291.pdf).
 - *2023*: [Federated Learning Vulnerabilities: Privacy Attacks with Denoising Diffusion Probabilistic Models](https://dl.acm.org/doi/abs/10.1145/3589334.3645514) accepted by WWW'24. 
 - *2023*: [Federated Learning on Distributed Graphs Considering Multiple Heterogeneities](https://ieeexplore.ieee.org/abstract/document/10447691) accepted by ICASSP'24.

@@ -9,14 +9,20 @@ main:
   - title: "Publications"
     url: "/#-publications"
 
-  - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
+  - title: "Honors and Services"
+    url: "/#-honors-and-services"
 
-  - title: "Educations"
-    url: "/#-educations"
+  # - title: "Honors and Awards"
+  #   url: "/#-honors-and-awards"
+
+  # - title: "Educations"
+  #   url: "/#-educations"
+  
+  - title: "Research Experience"
+    url: "/#-research-experience"
 
   - title: "Invited Talks"
     url: "/#-invited-talks"
 
-  - title: "Services"
-    url: "/#-services"
+  # - title: "Services"
+  #   url: "/#-services"
