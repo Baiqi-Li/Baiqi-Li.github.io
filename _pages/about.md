@@ -62,7 +62,7 @@ Hello! I am **Baiqi Li(李百奇)**, and I am currently a third-year **master st
 
 **NaturalBench: Evaluating Vision-Language Models on Natural Adversarial Samples**
 
-**Baiqi Li**\*, [Zhiqiu Lin\*](https://linzhiqiu.github.io/), Wenxuan Peng\*, Jean de Dieu Nyandwi\*, Daniel Jiang, Zixian Ma, Simran Khanuja, Ranjay Krishna, [Graham Neubig](https://phontron.com/), [Deva Ramanan\*](https://www.cs.cmu.edu/~deva/)
+**Baiqi Li**\*, [Zhiqiu Lin\*](https://linzhiqiu.github.io/), [Wenxuan Peng](https://lilydaytoy.github.io/)\*, [Jean de Dieu Nyandwi](https://nyandwi.com/)\*, Daniel Jiang, [Zixian Ma](https://zixianma.github.io/), [Simran Khanuja](https://simran-khanuja.github.io/), [Ranjay Krishna](https://www.ranjaykrishna.com/index.html), [Graham Neubig](https://phontron.com/), [Deva Ramanan\*](https://www.cs.cmu.edu/~deva/)
 
 [Website](https://linzhiqiu.github.io/papers/naturalbench) \| [Arxiv]() \| [HuggingFace](https://huggingface.co/datasets/BaiqiL/NaturalBench) 
 - In this work, we show that VLMs still struggle with natural images and questions that humans can easily answer, which we term **natural adversarial samples**.
