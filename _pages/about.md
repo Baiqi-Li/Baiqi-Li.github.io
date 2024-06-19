@@ -178,7 +178,8 @@ Hello! I am **Baiqi Li(李百奇)**, and I am currently a third-year **master st
  [Zikai Alex Wen](https://www.cs.cornell.edu/~zkwen/), **Zhiqiu Lin**, Rowena Chen, [Erik Andersen](http://www.cs.cornell.edu/~eland/), **CHI 2019** -->
 - *2023*: [Federated Learning Vulnerabilities: Privacy Attacks with Denoising Diffusion Probabilistic Models](https://dl.acm.org/doi/abs/10.1145/3589334.3645514), Hongyan Gu, Xinyan Zhang, Jiang Li, Hui Wei, **Baiqi Li**, Xinli Huang, accepted by WWW'24. 
 - *2023*: [Federated Learning on Distributed Graphs Considering Multiple Heterogeneities](https://ieeexplore.ieee.org/abstract/document/10447691), **Baiqi Li**; Yedi Ma; Yufei Liu; Hongyan Gu; Xinli Huang, accepted by ICASSP'24.
-
+<br>
+<br>
 
 # 🎖 Honors and Services
 - Reviewer: 2023 ECAI, Transactions on Intelligent Systems and Technology.
