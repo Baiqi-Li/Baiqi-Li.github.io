@@ -78,8 +78,8 @@ Hello! I am **Baiqi Li**, a research assistant at **Carnegie Mellon University**
 </div>
 </div>
 
-- *2023*: [Federated Learning Vulnerabilities: Privacy Attacks with Denoising Diffusion Probabilistic Models](https://dl.acm.org/doi/abs/10.1145/3589334.3645514), Hongyan Gu, Xinyan Zhang, Jiang Li, Hui Wei, **Baiqi Li**, Xinli Huang, accepted by WWW'24. 
-- *2023*: [Federated Learning on Distributed Graphs Considering Multiple Heterogeneities](https://ieeexplore.ieee.org/abstract/document/10447691), **Baiqi Li**; Yedi Ma; Yufei Liu; Hongyan Gu; Xinli Huang, accepted by ICASSP'24.
+- *2024*: [Federated Learning Vulnerabilities: Privacy Attacks with Denoising Diffusion Probabilistic Models](https://dl.acm.org/doi/abs/10.1145/3589334.3645514), Hongyan Gu, Xinyan Zhang, Jiang Li, Hui Wei, **Baiqi Li**, Xinli Huang, accepted by WWW'24. 
+- *2024*: [Federated Learning on Distributed Graphs Considering Multiple Heterogeneities](https://ieeexplore.ieee.org/abstract/document/10447691), **Baiqi Li**; Yedi Ma; Yufei Liu; Hongyan Gu; Xinli Huang, accepted by ICASSP'24.
 <br>
 <br>
 
