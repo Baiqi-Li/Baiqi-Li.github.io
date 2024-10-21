@@ -39,9 +39,9 @@ Hello! I am **Baiqi Li**, a research assistant at **Carnegie Mellon University**
 
 **NaturalBench: Evaluating Vision-Language Models on Natural Adversarial Samples**
 
-**Baiqi Li**\*, [Zhiqiu Lin\*](https://linzhiqiu.github.io/), [Wenxuan Peng](https://lilydaytoy.github.io/)\*, [Jean de Dieu Nyandwi](https://nyandwi.com/)\*, Daniel Jiang, [Zixian Ma](https://zixianma.github.io/), [Simran Khanuja](https://simran-khanuja.github.io/), [Ranjay Krishna$\dag$](https://www.ranjaykrishna.com/index.html), [Graham Neubig$\dag$](https://phontron.com/), [Deva Ramanan$\dag$](https://www.cs.cmu.edu/~deva/)
+**Baiqi Li**\*, [Zhiqiu Lin\*](https://linzhiqiu.github.io/), [Wenxuan Peng](https://lilydaytoy.github.io/)\*, [Jean de Dieu Nyandwi](https://nyandwi.com/)\*, [Daniel Jiang](https://www.linkedin.com/in/djiang04), [Zixian Ma](https://zixianma.github.io/), [Simran Khanuja](https://simran-khanuja.github.io/), [Ranjay Krishna &dagger;](https://www.ranjaykrishna.com/index.html), [Graham Neubig &dagger;](https://phontron.com/), [Deva Ramanan &dagger;](https://www.cs.cmu.edu/~deva/)
 
-[Website](https://linzhiqiu.github.io/papers/naturalbench) \| [Arxiv](https://arxiv.org/abs/2410.14669) \| [HuggingFace](https://huggingface.co/datasets/BaiqiL/NaturalBench) | [![Evaluation Code](https://img.shields.io/github/stars/Baiqi-Li/NaturalBench)](https://github.com/Baiqi-Li/NaturalBench)
+[Website](https://linzhiqiu.github.io/papers/naturalbench) \| [Arxiv](https://arxiv.org/abs/2410.14669) \| [HuggingFace](https://huggingface.co/datasets/BaiqiL/NaturalBench) | [![Evaluation Code](https://img.shields.io/github/stars/Baiqi-Li/NaturalBench?style=social&label=Code+Stars)](https://github.com/Baiqi-Li/NaturalBench)
 - In this work, we show that VLMs still struggle with natural images and questions that humans can easily answer, which we term **natural adversarial samples**.
 - We propose a semi-automated approach to collect a new benchmark, **NaturalBench**, for reliably evaluating VLMs with over 10,000 human-verified VQA samples.
 - Evaluated NaturalBench on 53 vision-language models, including both open-source and closed-source examples like GPT4-o, Qwen2-VL, Molmo, and InternVL
@@ -55,7 +55,7 @@ Hello! I am **Baiqi Li**, a research assistant at **Carnegie Mellon University**
 
 **Evaluating Text-to-Visual Generation with Image-to-Text Generation**
 
-[Zhiqiu Lin](https://linzhiqiu.github.io/), [Deepak Pathak](https://www.cs.cmu.edu/~dpathak/), **Baiqi Li**, [Emily Li](https://linzhiqiu.github.io/papers/vqascore/), [Xide Xia](https://xidexia.github.io/), [Graham Neubig](https://phontron.com/), [Pengchuan Zhang$\dag$](https://pzzhang.github.io/pzzhang/), [Deva Ramanan$\dag$](https://www.cs.cmu.edu/~deva/)
+[Zhiqiu Lin](https://linzhiqiu.github.io/), [Deepak Pathak](https://www.cs.cmu.edu/~dpathak/), **Baiqi Li**, [Emily Li](https://linzhiqiu.github.io/papers/vqascore/), [Xide Xia](https://xidexia.github.io/), [Graham Neubig](https://phontron.com/), [Pengchuan Zhang &dagger;](https://pzzhang.github.io/pzzhang/), [Deva Ramanan &dagger;](https://www.cs.cmu.edu/~deva/)
 
 [Website](https://linzhiqiu.github.io/papers/vqascore/) \| [Arxiv](https://arxiv.org/pdf/2404.01291.pdf) \| [![code](https://img.shields.io/github/stars/linzhiqiu/t2v_metrics?style=social&label=Code+Stars)](https://github.com/linzhiqiu/t2v_metrics)
 - We propose VQAScore, the state-of-the-art alignment metric for text-to-image/video/3D models.
@@ -69,7 +69,7 @@ Hello! I am **Baiqi Li**, a research assistant at **Carnegie Mellon University**
 
 **GenAI-Bench: Evaluating and Improving Compositional Text-to-Visual Generation**
 
-**Baiqi Li**\*, [Zhiqiu Lin\*](https://linzhiqiu.github.io/), [Deepak Pathak](https://www.cs.cmu.edu/~dpathak/), [Emily Li](https://linzhiqiu.github.io/papers/vqascore/), Feiyi Xin, Kewen Wu, Tiffany Ling, [Xide Xia$\dag$](https://xidexia.github.io/), [Pengchuan Zhang$\dag$](https://pzzhang.github.io/pzzhang/), [Graham Neubig$\dag$](https://phontron.com/), [Deva Ramanan$\dag$](https://www.cs.cmu.edu/~deva/)
+**Baiqi Li**\*, [Zhiqiu Lin\*](https://linzhiqiu.github.io/), [Deepak Pathak](https://www.cs.cmu.edu/~dpathak/), [Emily Li](https://arxiv.org/pdf/2406.13743), [Feiyi Xin](https://arxiv.org/pdf/2406.13743), [Kewen Wu](https://arxiv.org/pdf/2406.13743), [Tiffany Ling](https://arxiv.org/pdf/2406.13743), [Xide Xia &dagger;](https://xidexia.github.io/), [Pengchuan Zhang &dagger;](https://pzzhang.github.io/pzzhang/), [Graham Neubig &dagger;](https://phontron.com/), [Deva Ramanan &dagger;](https://www.cs.cmu.edu/~deva/)
 
 [Website](https://linzhiqiu.github.io/papers/genai_bench) \| [Arxiv](https://arxiv.org/pdf/2406.13743) \| [HuggingFace](https://huggingface.co/datasets/BaiqiL/GenAI-Bench)
 - We conduct an extensive human study on compositional text-to-visual generation using **GenAI-Bench**, revealing limitations of leading open-source and closed-source models. 
