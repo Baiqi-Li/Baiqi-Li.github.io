@@ -21,7 +21,7 @@ redirect_from:
 
 Hello! I am **Baiqi Li**, a research assistant at **Carnegie Mellon University**, working under the guidance of Professor **Deva Ramanan**. Additionally, I have interned at **Texas A&M University**, supervised by **Zhengzhong Tu**. I graduated in June 2024 with a **master's degree** from the School of Computer Science at **East China Normal University**. My research focuses on computer vision and language, particularly on evaluation metrics and benchmarks for VLMs and improvement of multimodal generative models. 
 
-<span style="color: red;">I am seeking a PhD opportunity for 2025. If you are interested in me, please contact me. :smiley: </span>
+<span style="color: red;">I am seeking a PhD opportunity for 2025. If you are interested in me, please contact me. 😃 </span>
 
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
