@@ -23,14 +23,14 @@ Hello! I am **Baiqi Li**, a research assistant at **Carnegie Mellon University**
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 # 🔥 News
-- *2024.09*: 🎉🎉 Our paper [NaturalBench: Evaluating Vision-Language Models on Natural Adversarial Samples]() was accepted by **NeurIPS2024**.
+- *2024.09*: 🎉🎉 Our paper [NaturalBench: Evaluating Vision-Language Models on Natural Adversarial Samples](https://arxiv.org/abs/2410.14669) was accepted by **NeurIPS2024**.
 - *2024.08*: 🎉🎉 Our [**VQAScore**](https://arxiv.org/pdf/2404.01291.pdf) was rated by [**Imagen**](https://arxiv.org/abs/2408.07009) as <span style="color:red;">the strongest</span> text-to-vision evaluation metric, and our benchmark, [**GenAI-Bench**](https://arxiv.org/pdf/2406.13743), was also extensively used by [**Imagen**](https://arxiv.org/abs/2408.07009). 
 - *2024.06*: 🎉🎉 Our workshop paper [GenAI-Bench: A Holistic Benchmark for Compositional Text-to-Visual Generation](https://openreview.net/forum?id=hJm7qnW3ym) has been selected as **the best paper** at SynData4CV workshop @ CVPR2024.
 - *2024.06*: We introduced GenAI-Bench for evaluating the performance of leading image and video generation models in various aspects of compositional text-to-visual generation and evaluation metrics.: [GenAI-Bench: Evaluating and Improving Compositional Text-to-Visual Generation](https://arxiv.org/pdf/2406.13743).
 - *2024.06*: We proposed a semi-automated approach to collect a **vision-centric** benchmark, **NaturalBench**, for reliably evaluating VLMs: [NaturalBench: Evaluating Vision-Language Models on Natural Adversarial Samples]().
 - *2024.04*: We introduced VQAScore for evaluating the prompt alignment of text-to-image/video/3D models: [Evaluating Text-to-Visual Generation with Image-to-Text Generation](https://arxiv.org/pdf/2404.01291.pdf).
-- *2023*: [Federated Learning Vulnerabilities: Privacy Attacks with Denoising Diffusion Probabilistic Models](https://dl.acm.org/doi/abs/10.1145/3589334.3645514), Hongyan Gu, Xinyan Zhang, Jiang Li, Hui Wei, **Baiqi Li**, Xinli Huang, accepted by WWW'24. 
-- *2023*: [Federated Learning on Distributed Graphs Considering Multiple Heterogeneities](), **Baiqi Li**; Yedi Ma; Yufei Liu; Hongyan Gu; Xinli Huang, accepted by ICASSP'24.
+- *2024*: [Federated Learning Vulnerabilities: Privacy Attacks with Denoising Diffusion Probabilistic Models](https://dl.acm.org/doi/abs/10.1145/3589334.3645514), Hongyan Gu, Xinyan Zhang, Jiang Li, Hui Wei, **Baiqi Li**, Xinli Huang, accepted by WWW'24. 
+- *2024*: [Federated Learning on Distributed Graphs Considering Multiple Heterogeneities](), **Baiqi Li**; Yedi Ma; Yufei Liu; Hongyan Gu; Xinli Huang, accepted by ICASSP'24.
 
 # 📝 Publications 
 
@@ -79,7 +79,7 @@ Hello! I am **Baiqi Li**, a research assistant at **Carnegie Mellon University**
 </div>
 
 - *2024*: [Federated Learning Vulnerabilities: Privacy Attacks with Denoising Diffusion Probabilistic Models](https://dl.acm.org/doi/abs/10.1145/3589334.3645514), Hongyan Gu, Xinyan Zhang, Jiang Li, Hui Wei, **Baiqi Li**, Xinli Huang, accepted by WWW'24. 
-- *2024*: [Federated Learning on Distributed Graphs Considering Multiple Heterogeneities](https://ieeexplore.ieee.org/abstract/document/10447691), **Baiqi Li**; Yedi Ma; Yufei Liu; Hongyan Gu; Xinli Huang, accepted by ICASSP'24.
+- *2024*: [Federated Learning on Distributed Graphs Considering Multiple Heterogeneities](), **Baiqi Li**; Yedi Ma; Yufei Liu; Hongyan Gu; Xinli Huang, accepted by ICASSP'24.
 <br>
 <br>
 
