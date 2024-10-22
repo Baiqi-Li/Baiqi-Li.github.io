@@ -19,7 +19,7 @@ redirect_from:
 
 <!-- Hello! I am **Baiqi Li(李百奇)**, and I am currently a third-year **master student** at the School of Computer Science at **East China Normal University**, expecting to graduate this June. Concurrently, I am a research assistant at **Carnegie Mellon University**, working under the guidance of Professor [Deva Ramanan](https://www.cs.cmu.edu/~deva/). My current research focuses on computer vision and language, especially Evaluation Metric and Benchmark for VLMs and multimodal generative models. -->
 
-Hello! I am **Baiqi Li**, a research assistant at **Carnegie Mellon University**, working under the guidance of Professor **Deva Ramanan**. Additionally, I have interned at **Texas A&M University**, supervised by **Zhengzhong Tu**. I graduated in June 2024 with a **master's degree** from the School of Computer Science at **East China Normal University**. My research focuses on computer vision and language, particularly on evaluation metrics and benchmarks for VLMs and improvement of multimodal generative models. 
+Hello! I am **Baiqi Li**, a research assistant at **Carnegie Mellon University**, working under the guidance of Professor **Deva Ramanan**. Additionally, I have interned at **Texas A&M University**, supervised by **Zhengzhong Tu**. I graduated in June 2024 with a **master's degree** from the School of Computer Science at **East China Normal University**. My research focuses on computer vision and language, particularly on evaluation metrics and benchmarks for the cognitive abilities of VLMs and improvement of multimodal generative models. 
 
 <span style="color: red;">I am looking for a PhD opportunity starting in 2025. If you are interested in my profile, please feel free to contact me. 😃 </span>
 
