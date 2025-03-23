@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="">
+  <meta property="og:title" content="VQAScore: Evaluating Text-to-Visual Generation with Image-to-Text Generation" />
+  <meta property="og:description" content="" />
+  <meta property="og:url" content="" />
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+
+  <meta name="twitter:title" content="VQAScore: Evaluating Text-to-Visual Generation with Image-to-Text Generation">
+  <meta name="twitter:description" content="">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Evaluating Text-to-Visual Generation with Image-to-Text Generation</title>
+  <!-- <link rel="icon" type="image/x-icon" href="static/images/favicon.ico"> -->
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Evaluating Text-to-Visual Generation with Image-to-Text Generation
+            </h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a target="_blank">Zhiqiu Lin</a><sup>1,2</sup>,</span>
+              <span class="author-block">
+                <a target="_blank">Deepak Pathak</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a target="_blank">Baiqi Li</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a target="_blank">Emily Li</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a target="_blank">Xide Xia</a><sup>2</sup>,</span>
+              <span class="author-block">
+                <a target="_blank">Graham Neubig</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a target="_blank">Pengchuan Zhang</a><sup>*2</sup>,</span>
+              <span class="author-block">
+                <a target="_blank">Deva Ramanan</a><sup>*1</sup>
+              </span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>Carnegie Mellon University<br></span>,
+              <span class="author-block"><sup>2</sup>Meta<br></span>
+              <!-- <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span> -->
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- Arxiv PDF link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/pdf/2404.01291.pdf" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+
+                <!-- Github link -->
+                <span class="link-block">
+                  <a href="https://github.com/linzhiqiu/t2v_metrics" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>VQAScore</span>
+                  </a>
+                </span>
+
+                <!-- Github link -->
+                <span class="link-block">
+                  <a href="https://github.com/linzhiqiu/CLIP-FlanT5" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>CLIP-FlanT5</span>
+                  </a>
+                </span>
+
+                <!-- Github link -->
+                <span class="link-block">
+                  <a href="https://linzhiqiu.github.io/papers/genai_bench/" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-database"></i>
+                    </span>
+                    <span>GenAI-Bench</span>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Paper abstract -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              Despite significant progress in generative AI, scientific evaluation remains challenging because of the lack of effective metrics and standardized benchmarks. 
+              For instance, the widely-used CLIPScore measures the alignment between a (generated) image and text prompt, but it fails to produce reliable scores for complex prompts involving compositions of objects, attributes, and relations. 
+              <!-- One reason is that text encoders of CLIP can notoriously act as a ``bag of words'', conflating prompts such as ~{\tt "the moon is over the cow"} with {\tt "the cow is over the moon"}.  -->
+              <ol type="1">
+                <li><b>VQAScore</b>. <span style="font-size: 95%;">We propose a simple metric that outperforms prior art without making use of expensive human feedback or proprietary models such as ChatGPT and GPT4-Vision. </span></li>
+                <li><b>CLIP-FlanT5</b>. <span style="font-size: 95%;">Our in-house VQA model achieves the state-of-the-art VQAScore for text-to-image/video/3D evaluation, offering a strong alternative to CLIPScore.</li>
+                <li><b>GenAI-Bench</b>. <span style="font-size: 95%;">We introduce a text-to-visual benchmark with real-world compositional prompts to evaluate generative models and automated metrics, surpassing the difficulty of existing benchmarks. 
+              </ol>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End paper abstract -->
+
+
+  <!-- Method Overview -->
+  <section class="section hero is-light2">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">VQAScore for Text-to-Visual Evaluation</h2>
+          <div class="content has-text-justified">
+
+            <div class="item">
+              <!-- Your image here -->
+              <div style="display: flex; justify-content: center; align-items: center;">
+                <img src="images/example1.jpg" alt="Image illustrating VQAScore"
+                     style="width: 440px; height: auto; margin-right: 10px;">
+                <img src="images/example2.jpg" alt="Image illustrating VQAScore"
+                     style="width: 440px; height: auto;">
+            </div>
+
+              <p style="text-align: justify; font-size: 16px; line-height: 1.5; margin-top: 10px; color: #333;">
+                Compared to the <a href="https://arxiv.org/abs/2210.01936">bag-of-words</a> CLIPScore (in <span style="color: red;">red</span>), VQAScore (in <span style="color: green;">green</span>) based on our CLIP-FlanT5 model correlates better with human judgments on images generated from <i>compositional</i> text prompts that involve attribute bindings, spatial/action/part relations, and higher-order reasoning such as negation and comparison.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Method Overview -->
+
+
+  <!-- Text-Image generation -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Computing VQAScore via CLIP-FlanT5</h2>
+          <div class="content has-text-justified">
+
+            <div class="item">
+              <!-- Your image here -->
+              <img src="images/vqascore.png" alt="Image showing VQAScore" />
+
+              <p style="text-align: justify; font-size: 16px; line-height: 1.5; color: #333;">
+                VQAScore is remarkably simple yet effective. It can be computed end-to-end using an off-the-shelf VQA model as the probability of '<span
+                style="color: violet;">Yes</span>' conditioned on the <span style="color: rgb(0, 128, 255);">image</span> and a simple question, such as '<span
+                style="color: rgb(230, 62, 62);">Does this figure show "{text}"? Please answer yes or no.</span>'
+              
+              </p>
+
+              <img src="images/encoder.png" alt="Image showing CLIP-FlanT5" />
+
+              <p style="text-align: justify; font-size: 16px; line-height: 1.5; color: #333;">
+                We find it beneficial to use a <i>bidirectional</i> image-question encoder that allows <span style="color: rgb(0, 128, 255);">visual</span> embeddings to be influenced by the <span style="color: rgb(230, 62, 62);">question</span> being asked (and vice versa). We operationalize this via finetuning a <b>CLIP-FlanT5</b> model on public VQA datasets. This model sets a new state-of-the-art in text-to-image/video/3D evaluation, without using costly human feedback.
+                <!-- While popular VQA models (e.g., <a href="https://llava-vl.github.io/">LLaVA</a>) are derived from next-token autoregressive LLMs (e.g., Llama) where <span style="color: rgb(230, 62, 62);">question embeddings</span> depend on previously-encoded <span style="color: rgb(0, 128, 255);">image tokens</span>, we find it beneficial to allow visual embeddings to be influenced by the question being asked (and vice versa). We operationalize this via a bidirectional ``encoder-decoder'' language model, FlanT5. By finetuning on public VQA datasets, our <b>CLIP-FlanT5</b> sets a new state-of-the-art in text-to-visual alignment. -->
+              
+              </p>
+            </div>
+
+
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Prompt Inversion -->
+
+
+  <!-- Prompt Inversion -->
+  <section class="section hero is-light2">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">GenAI-Bench</h2>
+          <div class="content has-text-justified">
+            <div class="item">
+              <!-- Your image here -->
+              <img src="images/genai_bench.png" alt="Visualization of GenAI-Bench"
+                style="max-width: 95%; height: auto; display: block; margin: 0 auto;">
+
+              <p style="text-align: justify; font-size: 16px; line-height: 1.5; margin-top: 10px; color: #333;">
+                We introduce a comprehensive benchmark for compositional text-to-visual generation, challenging even leading models like DALL-E 3 and Gen2. GenAI-Bench provides fine-grained tags for both <span style="color: gray;">basic (attribute/scene/relation)</span> and <span style="color: blue">advanced (counting/differentiation/comparison/logic)</span> compositional reasoning skills. Used alongside VQAScore, GenAI-Bench enables reproducible evaluation of generative models. To verify VQAScore's agreement with human judgments, we also collect extensive human ratings on ten image and video generative models. We plan to release these ratings to evaluate future automated metrics.
+                
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Prompt Inversion -->
+
+  <!--BibTex citation -->
+  <section class="section hero is-light" id="BibTeX (TO UPDATE)">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@article{lin2024evaluating,
+        title={Evaluating Text-to-Visual Generation with Image-to-Text Generation},
+        author={Lin, Zhiqiu and Pathak, Deepak and Li, Baiqi and Li, Jiayao and Xia, Xide and Neubig, Graham and Zhang, Pengchuan and Ramanan, Deva},
+        journal={arXiv preprint arXiv:2404.01291},
+        year={2024}
+      }</code></pre>
+    </div>
+  </section>
+  <!--End BibTex citation -->
+
+  
+
+  <!-- Statcounter tracking code -->
+
+  <!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+  <!-- End of Statcounter Code -->
+
+</body>
+
+</html>

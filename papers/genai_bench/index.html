@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="">
+  <meta property="og:title" content="GenAI-Bench: Evaluating and Improving Compositional Text-to-Visual Generation" />
+  <meta property="og:description" content="" />
+  <meta property="og:url" content="" />
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+
+  <meta name="twitter:title" content="GenAI-Bench: Evaluating and Improving Compositional Text-to-Visual Generation">
+  <meta name="twitter:description" content="">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>GenAI-Bench: Evaluating and Improving Compositional Text-to-Visual Generation</title>
+  <!-- <link rel="icon" type="image/x-icon" href="static/images/favicon.ico"> -->
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+  <script type="module" src="https://gradio.s3-us-west-2.amazonaws.com/4.31.2/gradio.js"></script>
+</head>
+
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">GenAI-Bench: Evaluating and Improving Compositional Text-to-Visual Generation
+            </h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a target="_blank">Baiqi Li</a><sup>*1</sup>,</span>
+              <span class="author-block">
+                <a target="_blank">Zhiqiu Lin</a><sup>*1,2</sup>,</span>
+              <span class="author-block">
+                <a target="_blank">Deepak Pathak</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a target="_blank">Emily Li</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a target="_blank">Yixin Fei</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a target="_blank">Kewen Wu</a><sup>1</sup>,</span>
+                <span class="author-block">
+                  <a target="_blank">Tiffany Ling</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a target="_blank">Xide Xia</a><sup>&2</sup>,</span>
+              <span class="author-block">
+                <a target="_blank">Pengchuan Zhang</a><sup>&2</sup>,</span>
+              <span class="author-block">
+                <a target="_blank">Graham Neubig</a><sup>&1</sup>,</span>
+              <span class="author-block">
+                <a target="_blank">Deva Ramanan</a><sup>&1</sup>
+              </span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>Carnegie Mellon University<br></span>,
+              <span class="author-block"><sup>2</sup>Meta<br></span>,
+              <span class="author-block"><sup>*</sup>Co-first authors<br></span>,
+              <span class="author-block"><sup>*</sup>Co-senior authors<br></span>
+              <!-- <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span> -->
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- Arxiv PDF link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/pdf/2404.01291.pdf" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+
+                <!-- Github link -->
+                <span class="link-block">
+                  <a href="https://github.com/linzhiqiu/t2v_metrics" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>VQAScore</span>
+                  </a>
+                </span>
+
+                <!-- Github link -->
+                <span class="link-block">
+                  <a href="https://huggingface.co/datasets/BaiqiL/GenAI-Bench" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-database"></i>
+                    </span>
+                    <span>GenAI-Bench</span>
+                  </a>
+                </span>
+
+                <!-- Github link -->
+                <span class="link-block">
+                  <a href="https://huggingface.co/spaces/BaiqiL/GenAI-Bench-DataViewer" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-database"></i>
+                    </span>
+                    <span>Dataset Viewer</span>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <gradio-app src="https://zhiqiulin-vqascore.hf.space"></gradio-app>
+  <!-- Paper abstract -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              While text-to-visual models now produce photo-realistic images and videos, they still struggle with compositional text prompts involving attributes, relationships, and higher-order reasoning such as logic and comparison.
+              We introduce <b>GenAI-Bench</b> to evaluate the performance of state-of-the-art generative models in various aspects of compositional text-to-visual generation. Our contributions are as follow:
+              <!-- One reason is that text encoders of CLIP can notoriously act as a ``bag of words'', conflating prompts such as ~{\tt "the moon is over the cow"} with {\tt "the cow is over the moon"}.  -->
+              <ol type="1">
+                <li><b>GenAI-Bench</b>. <span style="font-size: 95%;">We collect 1,600 text prompts from graphic designers who use text-to-visual tools like Midjourney in their profession. Compared to previous benchmarks like PartiPrompt and T2I-CompBench, <span style="color: green;">GenAI-Bench</span> covers a wider range of compositional reasoning skills and poses a greater challenge to leading generative models. </span></li>
+                <li><b>Human Studies</b>. <span style="font-size: 95%;">We hire human annotators to rate 10 leading open-sourced and close-sourced generative models, such as DALL-E 3, Stable Diffusion, Pika, and Gen2. We will release 38,400 human ratings for benchmarking automated evaluation metrics. In addition, our studies highlight that <a href="https://linzhiqiu.github.io/papers/vqascore/"><span style="color: green;">VQAScore</span></a> correlates better with human judgments on compositional text prompts than existing metrics like CLIPScore, PickScore, HPSv2, and Davidsonian Scene Graph.  </li>
+                <li><b>Improving Generation</b>. <span style="font-size: 95%;">We show that <a href="https://linzhiqiu.github.io/papers/vqascore/"><span style="color: green;">VQAScore</span></a> can also improve image generation by simply selecting the highest-VQAScore images from a few generated candidates. This method can even enhance the state-of-the-art API-based (black-box) models like DALL-E 3! We will release a <a href="https://linzhiqiu.github.io/papers/vqascore/"><span style="color: green;">GenAI-Rank</span></a> benchmark with 43,200 human ratings on DALL-E 3 and SD-XL images generated by the same prompt.  </span></li>
+              </ol>
+            </p>
+          </div>
+          <!-- <h2 class="title is-3">Try ranking images with VQAScore!</h2> -->
+          <!-- <gradio-app src="https://zhiqiulin-vqascore.hf.space"></gradio-app> -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End paper abstract -->
+
+
+  <!-- Method Overview -->
+  <section class="section hero is-light2">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">GenAI-Bench for Text-to-Visual Evaluation</h2>
+          <div class="content has-text-justified">
+
+            <div class="item">
+              <!-- Your image here -->
+              <div style="display: flex; justify-content: center; align-items: center;">
+                <img src="images/genai_bench_motivation.jpg" alt="Image illustrating GenAI-Bench">
+            </div>
+
+              <p style="text-align: justify; font-size: 16px; line-height: 1.5; margin-top: 10px; color: #333;">
+                GenAI-Bench reflects how users seek precise control in text-to-visual generation using <span style="color: green;">compositional prompts prompts shown in green</span>. For example, users might add details by specifying <b>basic compositions</b> of <span style="color: gray;"><b>objects, scenes, attributes, and relationships (spatial/action/part)</b> (shown in gray)</span>. Additionally, user prompts may involve <span style="color: blue;">advanced reasoning, including <b>counting, comparison, differentiation, and logic (negation/universality)</b> (shown in blue)</span>. We carefully define and label these skills in the paper.
+              </p>
+
+              <div style="display: flex; justify-content: center; align-items: center;">
+                <img src="images/process.jpg" alt="Image showing GenAI-Bench collection">
+            </div>
+
+            <p style="text-align: justify; font-size: 16px; line-height: 1.5; margin-top: 10px; color: #333;">
+              We collect prompts from professional designers to ensure GenAI-Bench reflects real-world needs. Designers write prompts on general topics (e.g., food, animals, household objects) without copyrighted characters or celebrities. We carefully tag each prompt with its evaluated skills and hire human annotators to rate images and videos generated by state-of-the-art models.
+            </p>
+              
+              <div style="display: flex; justify-content: center; align-items: center;">
+                <img src="images/comparison.png" alt="Image comparing GenAI-Bench to other benchmarks">
+            </div>
+
+            <p style="text-align: justify; font-size: 16px; line-height: 1.5; margin-top: 10px; color: #333;">
+              Compared to existing benchmarks, GenAI-Bench covers more crucial aspects of compositional text-to-visual generation and poses a greater challenge to leading generative models:
+            </p>
+
+              <div style="display: flex; justify-content: center; align-items: center;">
+                <img src="images/genaibench.png" alt="Image comparing GenAI-Bench to other benchmarks">
+            </div>
+
+            <p style="text-align: justify; font-size: 16px; line-height: 1.5; margin-top: 10px; color: #333;">
+            </p>
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Method Overview -->
+
+
+  <!-- Text-Image generation -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Human Studies</h2>
+          <div class="content has-text-justified">
+
+            <div class="item">
+              <!-- Your image here -->
+              <div class="item">
+                <!-- Your image here -->
+                <p style="text-align: justify; font-size: 16px; line-height: 1.5; margin-top: 10px; color: #333;">
+                  We evaluate 6 text-to-image models: Stable Diffusion (SD v2.1, SD-XL, SD-XL Turbo), DeepFloyd-IF, Midjourney v6, DALL-E 3; along with 4 text-to-video models: ModelScope, Floor33, Pika v1, Gen2. For human evaluations, we hire three annotators to collect 1-to-5 Likert scale human ratings for image-text or video-text alignment using the recommended annotation protocol of <a href="https://arxiv.org/abs/2304.01816">Otani et al. (CVPR 2023)</a>.
+                </p>
+                <div style="display: flex; justify-content: center; align-items: center;">
+                  <img src="images/human.png" alt="Image illustrating human evaluation">
+              </div>
+  
+  
+              <p style="text-align: justify; font-size: 16px; line-height: 1.5; margin-top: 10px; color: #333;">
+                These human ratings also allow us to benchmark automated evaluation metrics. We find that <a href="https://linzhiqiu.github.io/papers/vqascore/"><span style="color: green;">VQAScore</span></a> correlates better with human ratings than all prior art, including CLIPScore, PickScore, ImageReward, HPSv2, TIFA, VQ2, and Davidsonian Scene Graph.
+              </p>
+  
+                <div style="display: flex; justify-content: center; align-items: center;">
+                  <img src="images/genaibench_new.jpg" alt="Image explaining VQAScore">
+              </div>
+
+              <p style="text-align: justify; font-size: 16px; line-height: 1.5; margin-top: 10px; color: #333;">
+                VQAScore is remarkable simple yet effective. It can be computed end-to-end using an off-the-shelf VQA model as the probability of '<span style="color: violet;">Yes</span>' conditioned on the <span style="color: rgb(0, 128, 255);">image</span> and a simple question, as shown below. We refer the reader to our <a href="https://linzhiqiu.github.io/papers/vqascore/"><span style="color: green;">VQAScore</span> page</a> for more details.
+              </p>
+
+              <div style="display: flex; justify-content: center; align-items: center;">
+                <img src="images/vqascore.png" alt="Image explaining VQAScore">
+            </div>
+
+              
+            </div>
+
+
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Prompt Inversion -->
+
+
+  <!-- Prompt Inversion -->
+  <section class="section hero is-light2">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Improving Image Generation using VQAScore</h2>
+          <div class="content has-text-justified">
+            <div class="item">
+              <!-- Your image here -->
+
+              <p style="text-align: justify; font-size: 16px; line-height: 1.5; color: #333;">
+                VQAScore can improve text-to-image generation by selecting the highest-VQAScore images from a few (3 to 9) generated candidates. Below we show how we use VQAScore to improve the state-of-the-art DALL-E 3 model using its black-box API:
+              
+              </p>
+
+              <div class="item">
+                <!-- Your image here -->
+                <div style="display: flex; justify-content: center; align-items: center;">
+                  <img src="images/DALLE3_rank_basic.jpg" alt="Image illustrating VQAScore"
+                       style="width: 440px; height: auto; margin-right: 10px;">
+                  <img src="images/DALLE3_rank_advanced.jpg" alt="Image illustrating VQAScore"
+                       style="width: 440px; height: auto;">
+              </div>
+              <br>
+              <p style="text-align: justify; font-size: 16px; line-height: 1.5; color: #333;">
+                We perform extensive human studies to demonstrate that images with the highest VQAScore images are more aligned with text prompts according to human judgments. Notably, VQAScore outperforms other metrics, such as CLIPScore, PickScore, and Davidsonian Scene Graph. For benchmarking purposes, we will release the <a href="https://linzhiqiu.github.io/papers/vqascore/"><span style="color: green;">GenAI-Rank</span></a> benchmark with all human ratings -- 800 prompts, 9 images per prompt, for 2 models: DALL-E 3 and SD-XL.
+              </p>
+
+              <div style="display: flex; justify-content: center; align-items: center;">
+                <img src="images/DALLE_result.jpg" alt="Image explaining DALLE3 ranking results">
+            </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Prompt Inversion -->
+
+  <!--BibTex citation -->
+  <section class="section hero is-light" id="BibTeX (TO UPDATE)">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@InProceedings{li2024evaluating,
+        title={Evaluating and Improving Compositional Text-to-Visual Generation},
+        author={Li, Baiqi and Lin, Zhiqiu and Pathak, Deepak and Li, Jiayao and Fei, Yixin and Wu, Kewen and Ling, Tiffany and Xia, Xide and Zhang, Pengchuan and Neubig, Graham and Ramanan, Deva},
+        booktitle={TODO: Arxiv},
+        year={2024}
+      }</code></pre>
+    </div>
+  </section>
+  <!--End BibTex citation -->
+
+</body>
+
+</html>

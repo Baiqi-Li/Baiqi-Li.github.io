@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="">
+  <meta property="og:title" content="NaturalBench: Evaluating Vision-Language Models on Natural Adversarial Samples" />
+  <meta property="og:description" content="" />
+  <meta property="og:url" content="" />
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+
+  <meta name="twitter:title" content="NaturalBench: Evaluating Vision-Language Models on Natural Adversarial Samples">
+  <meta name="twitter:description" content="">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>NaturalBench: Evaluating Vision-Language Models on Natural Adversarial Samples</title>
+  <!-- <link rel="icon" type="image/x-icon" href="static/images/favicon.ico"> -->
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+  <script type="module" src="https://gradio.s3-us-west-2.amazonaws.com/4.31.2/gradio.js"></script>
+</head>
+
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">NaturalBench: Evaluating Vision-Language Models on Natural Adversarial Samples
+            </h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a target="_blank">Baiqi Li</a><sup>*1</sup>,</span>
+              <span class="author-block">
+                <a target="_blank">Zhiqiu Lin</a><sup>*1</sup>,</span>
+              <span class="author-block">
+                <a target="_blank">Wenxuan Peng</a><sup>*1</sup>,</span>
+              <span class="author-block">
+                <a target="_blank">Jean de Dieu Nyandwi</a><sup>*1</sup>,</span>
+              <span class="author-block">
+                <a target="_blank">Daniel Jiang</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a target="_blank">Zixian Ma</a><sup>2</sup>,</span>
+              <span class="author-block">
+                <a target="_blank">Simran Khanuja</a><sup>1</sup>,</span>
+                <span class="author-block">
+                  <a target="_blank">Ranjay Krishna</a><sup>&2</sup>,</span>
+                  <span class="author-block">
+                    <a target="_blank">Graham Neubig</a><sup>&1</sup>,</span>
+                    <span class="author-block">
+                      <a target="_blank">Deva Ramanan</a><sup>&1</sup>,</span>
+              </span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>Carnegie Mellon University<br></span>,
+              <span class="author-block"><sup>2</sup>University of Washington<br></span>,
+              <span class="author-block"><sup>*</sup>Co-first authors<br></span>,
+              <span class="author-block"><sup>*</sup>Co-senior authors<br></span>
+              <!-- <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span> -->
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- Arxiv PDF link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/pdf/todo.pdf" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+
+                <!-- Github link -->
+                <!-- <span class="link-block">
+                  <a href="https://github.com/linzhiqiu/todo" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span> -->
+
+                <!-- Github link -->
+                <span class="link-block">
+                  <a href="https://huggingface.co/datasets/BaiqiL/NaturalBench/blob/main/README.md" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-database"></i>
+                    </span>
+                    <span>NaturalBench</span>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- <gradio-app src="https://zhiqiulin-vqascore.hf.space"></gradio-app> -->
+  <!-- Paper abstract -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              Are large vision-language models (VLMs) truly effective? In this work, we show that popular VLMs still struggle with natural images and questions that humans can easily answer, which we term <b>natural adversarial samples</b>. Unlike previous VQA benchmarks such as MME that can be addressed by blind QA models, NaturalBench avoids such shortcuts by pairing each question with two images that yield different answers. We use a surprisingly simple procedure to collect adversarial VQA samples from natural image-text corpora using foundation models like CLIP and ChatGPT. We collect a new <b>NaturalBench</b> benchmark for reliably evaluating VLMs with over 10,000 human-verified VQA samples. We note several interesting findings:
+              <ol type="1">
+                <li><b>NaturalBench is hard</b>. <span style="font-size: 95%;">Popular VLMs like InstructBLIP, LLaVA-NeXT, ShareGPT4V, and XGen-MM (BLIP-3) only achieve 1%-15% above random chance performance. Even the best (closed-source) GPT-4o lags significantly behind human performance (which is above 90%). </span></li>
+                <li><b>NaturalBench is compositional</b>. <span style="font-size: 95%;">NaturalBench requires diverse visio-linguistic skills, including understanding attribute bindings, object relationships, and advanced reasoning like logic and counting. To this end, unlike prior work that uses a single tag per sample, we tag each NaturalBench sample with 1 to 8 skill tags for fine-grained evaluation. </li>
+                <li><b>NaturalBench exposes significant biases in VLMs</b>. <span style="font-size: 95%;">Most VLMs choose the same answer regardless of the input image (or question). We show that debiasing can be crucial for VLM performance.  </span></li>
+              </ol>
+            </p>
+          </div>
+          <!-- <h2 class="title is-3">Try ranking images with VQAScore!</h2> -->
+          <!-- <gradio-app src="https://zhiqiulin-vqascore.hf.space"></gradio-app> -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End paper abstract -->
+
+
+  <!-- Method Overview -->
+  <section class="section hero is-light2">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Natural Adversarial Samples for Vision-Language Models</h2>
+          <div class="content has-text-justified">
+
+            <div class="item">
+              <!-- Your image here -->
+              <div style="display: flex; justify-content: center; align-items: center;">
+                <img src="images/natural_teaser.jpg" alt="Image illustrating NaturalBench">
+            </div>
+
+              <p style="text-align: justify; font-size: 16px; line-height: 1.5; margin-top: 10px; color: #333;">
+                <b>NaturalBench examples</b> consist of two questions and two images with alternating answers to prevent ``blind'' models from scoring well (e.g., those that predict the same answer regardless of the image or question, as discussed in the paper). We compare the ground-truth answer for each (image, question) pair with predictions from leading VLMs including GPT-4o, GPT-4v, BLIP3, LLaVA-NeXT, InstructBLIP, mPLUG-Owl2.1, Qwen-VL, and InternVL. Even the best models like GPT-4o lags far behind human performance (which is above 90%). Moreover, these samples are <b>suprisingly easy to collect</b>:
+              </p>
+              
+              <div style="display: flex; justify-content: center; align-items: center;">
+                <img src="images/collection.jpg" alt="Image illustrating NaturalBench">
+            </div>
+            
+            <p style="text-align: justify; font-size: 16px; line-height: 1.5; margin-top: 10px; color: #333;">
+              We use a semi-automated procedure to collect NaturalBench from natural image-text corpora like Flickr30K and DOCCI. First, we identify confounding pairs of image-text samples that fail discriminative VLMs like CLIP, e.g., they wrongly match an image with another image's caption. Next, we prompt ChatGPT (or GPT4-Vision) to design questions that yield different answers for each image, providing the original captions (or images) in the prompt. We hire human annotators to filter out incorrect or irrelevant VQA samples. This process is much simpler than classic adversarial benchmarks as we do not target any specific VQA models nor perturb the images or questions. 
+            </p>
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Method Overview -->
+
+
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Preventing Blind Solutions</h2>
+          <div class="content has-text-justified">
+            
+            <p style="text-align: justify; font-size: 16px; line-height: 1.5; margin-top: 10px; color: #333;"></p>
+            Without careful curation, VQA benchmarks may be solved by blind QA models that ignore the images. Recent benchmarks often include questions solvable through <b>commonsense knowledge</b>. For example, a question from MMMU asks, "<i>What is the common term for the yellow area surrounding the site of an infection?</i>" The correct answer is "Halo", as the other options "Corona", "Border", and "Toxin zone" can be ruled out with medical knowledge. We refer interested readers to our paper and <a href="https://github.com/MMStar-Benchmark/MMStar/tree/main">MMStar</a> for further discussion on the same issue. Another easily overlooked bias is <b>imbalanced answers</b>. For example, in the popular MME benchmark, the question "<i>Does this artwork exist in the form of a painting?</i>" is answered "Yes" 97.5% of the time! We show that such spurious answer patterns can be exploited by finetuning a "blind" ChatGPT-3.5: 
+              </p>
+            <div style="display: flex; justify-content: center; align-items: center;">
+              <img src="images/bias.png" alt="Image illustrating Bias">
+          </div>
+
+          <p style="text-align: justify; font-size: 16px; line-height: 1.5; margin-top: 10px; color: #333;">
+          We use a random half of each benchmark for training and test on the other half. Finetuning a blind LLM (GPT-3.5) using only QA data (without images) significantly outperforms random chance and sometimes even matches the performance of LLaVA-1.5 finetuned with images (more benchmarks are reported in the paper). In contrast, NaturalBench enforces a balanced answer distribution for each question and image, ensuring blind solutions only achieve random chance performance. To better understand model performance, we also introduce three additional metrics.
+           We define the "question accuracy" (<b>Q-Acc</b>) metric to award a point only if a model correctly answers a question for both images. 
+           Similarly, the "image accuracy" (<b>I-Acc</b>) metric awards a point when a model correctly answers both questions for an image. Lastly, the "group accuracy" (<b>G-Acc</b>) metric awards one point when a model correctly answers all four (image, question) pairs in a test sample.
+          </p>
+            </div>
+
+
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section hero is-light2">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Model Evaluation</h2>
+          <div class="content has-text-justified">
+            <div class="item">
+              <!-- Your image here -->
+
+              TODO: with 37 MODEL RESULTS on the NaturalBench benchmark.
+
+            <p style="text-align: justify; font-size: 16px; line-height: 1.5; margin-top: 10px; color: #333;">
+              We report the performance of 37 leading VLMs on NaturalBench. All models significantly lag behind human performance, with the performance gap (in G-Acc) between humans and models highlighted in <span style="color: red;">red</span></a>. Interestingly, VLMs with larger language models do not always perform better. Even the best closed-source GPT-4o is still significantly behind humans.
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">What are the Challenges?</h2>
+          <div class="content has-text-justified">
+            
+            <p style="text-align: justify; font-size: 16px; line-height: 1.5; margin-top: 10px; color: #333;"></p>
+            <b>Compositionality:</b> Solving a NaturalBench sample often requires a combination of skills, including object recognition, attribute binding, relation understanding, and advanced reasoning such as logic, comparison, differentiation (instance discrimination), counting, and world knowledge. We tag each (image, question) pair with all associated skills for a fine-grained analysis.
+              </p>
+            <div style="display: flex; justify-content: center; align-items: center;">
+              <img src="images/tag.png" alt="Image illustrating Bias">
+          </div>
+
+          <p style="text-align: justify; font-size: 16px; line-height: 1.5; margin-top: 10px; color: #333;">
+          <b>Biases:</b> NaturalBench exposes VLMs' biases towards certain answers like "Yes" regardless of the input image and question. We use the answer likelihood (<a href="https://linzhiqiu.github.io/papers/vqascore/"><span style="color: green;">VQAScore</span></a>) to perform a scoring-based evaluation by comparing the likelihood of correct (image, question, answer) triples over the incorrect ones to show that proper debiasing can lead to huge performance gains.
+          </p>
+            </div>
+
+
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section hero is-light2">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Towards Dynamic Evaluation</h2>
+          <div class="content has-text-justified">
+            <div class="item">
+              <!-- Your image here -->
+
+            <p style="text-align: justify; font-size: 16px; line-height: 1.5; margin-top: 10px; color: #333;">
+              Since benchmarks often leak into foundation models' training data, it is crucial to update benchmarks using new data sources. Our benchmark curation method can easily adapt to new image-text datasets. We expand NaturalBench by incorporating two recently proposed datasets: (1) DOCCI with fine-grained captions over 100 words, and (2) XM3600 with captions in Chinese and Hindi. We hope our efforts will inspire future work in studying dynamic evaluations of VLMs.
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--BibTex citation -->
+  <section class="section hero is-light" id="BibTeX (TO UPDATE)">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@TODO{li2024natural,
+        title={NaturalBench: Evaluating Vision-Language Models on Natural Adversarial Samples},
+        author={Li, Baiqi and Lin, Zhiqiu and Peng, Wenxuan and Nyandwi, Jean de Dieu and Jiang, Daniel and Khanuja, Simran and Ma, Zixian and Krishna, Ranjay and Neubig, Graham and Ramanan, Deva},
+        booktitle={TODO},
+        year={2024}
+      }</code></pre>
+    </div>
+  </section>
+  <!--End BibTex citation -->
+
+</body>
+
+</html>
