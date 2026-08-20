@@ -256,6 +256,13 @@ h1:before, .anchor:before {
     text-decoration: none;
 }
 
+/* keep sidebar icons monochrome instead of brand colors */
+.sidebar .social-icons .fa-linkedin,
+.sidebar .social-icons .fa-linkedin-square,
+.sidebar .social-icons .fa-github {
+    color: inherit;
+}
+
 /* --- Masthead navigation ----------------------------------------------- */
 
 .greedy-nav {
