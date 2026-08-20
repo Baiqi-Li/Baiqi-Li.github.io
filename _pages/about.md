@@ -36,7 +36,7 @@ Hello! I’m Baiqi Li, a PhD student in Computer Science at the University of No
 
 **WatchAct: A Benchmark for Behavior-Grounded Robot Manipulation** <span class="pub-venue">arXiv</span>
 
-**Baiqi Li**, Ce Zhang, Yu Fang, Yue Yang, Shangzhe Li, Mingyu Ding, [Gedas Bertasius](https://www.gedasbertasius.com/)
+**Baiqi Li**, [Ce Zhang](https://ceezh.github.io/), [Yu Fang](https://yuffish.github.io/), [Yue Yang](https://yy-gx.github.io/), [Shangzhe Li](https://tobyleelsz.github.io/), [Mingyu Ding](https://dingmyu.github.io/), [Gedas Bertasius](https://www.gedasbertasius.com/)
 
 [Website](https://baiqi-li.github.io/watchact_page/) \| [arXiv](https://arxiv.org/pdf/2606.26443) \| [Code](https://github.com/Baiqi-Li/WatchAct) \| [HuggingFace](https://huggingface.co/datasets/BaiqiL/WatchAct)
 </div>
@@ -47,7 +47,7 @@ Hello! I’m Baiqi Li, a PhD student in Computer Science at the University of No
 
 **TimeBlind: A Spatio-Temporal Compositionality Benchmark for Video LLMs** <span class="pub-venue">arXiv</span>
 
-**Baiqi Li**, Kangyi Zhao, Ce Zhang, Chancharik Mitra, [Jean de Dieu Nyandwi](https://nyandwi.com/), [Gedas Bertasius](https://www.gedasbertasius.com/)
+**Baiqi Li**, [Kangyi Zhao](https://openreview.net/profile?id=~Kangyi_Zhao1), [Ce Zhang](https://ceezh.github.io/), [Chancharik Mitra](https://chancharikmitra.github.io/), [Jean de Dieu Nyandwi](https://nyandwi.com/), [Gedas Bertasius](https://www.gedasbertasius.com/)
 
 [Website](https://baiqi-li.github.io/timeblind_project/) \| [arXiv](https://arxiv.org/abs/2602.00288)
 </div>
