@@ -22,13 +22,13 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Baiqi Li"
-  avatar           : "images/android-chrome-192x192.png"
-  bio              : ""
+  avatar           : "images/avatar.jpg"
+  bio              : "PhD student @ UNC Chapel Hill"
   location         : "Chapel Hill, NC"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=mwdpP7sAAAAJ&hl=zh-CN"
-  email            : "libaiqi123@gmail.com"
+  email            : "baiqili [at] cs.unc.edu"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : 
+  github           : "Baiqi-Li"
   google_plus      :
   keybase          :
   instagram        :

@@ -40,70 +40,242 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
+/* ==========================================================================
+   Custom design overrides
+   ========================================================================== */
+
+body {
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+/* --- Section headings ------------------------------------------------- */
+
+.page__content {
+    h1 {
+        margin-top: 1.6em;
+        padding-bottom: 0.45em;
+        font-size: 1.45em;
+        font-weight: 700;
+        letter-spacing: -0.01em;
+        color: darken($text-color, 12%);
+        border-bottom: 1px solid $border-color;
+    }
+
+    strong {
+        color: darken($text-color, 8%);
+    }
+
+    a {
+        text-decoration: none;
+        font-weight: 500;
+
+        &:hover {
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
+    }
+
+    /* muted list markers */
+    > ul > li::marker {
+        color: #b9c2cc;
+    }
+
+    /* dates in the News section (e.g. *2024.09*) */
+    > ul > li > em:first-child {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 0.85em;
+        color: #8a94a0;
+        margin-right: 0.3em;
+        white-space: nowrap;
+    }
+}
+
+/* --- Publication cards ------------------------------------------------ */
+
 .paper-box {
     display: flex;
     justify-content: left;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    border-bottom: 1px #efefef solid;
-    padding: 2em 0 2em 0;
-    
+    margin: 0;
+    padding: 1.25em 0;
+    border-bottom: 1px solid $border-color;
+
+    &:last-of-type {
+        border-bottom: none;
+    }
 
     .paper-box-image{
         justify-content: center;
         display: flex;
         width: 100%;
         order: 2;
-        img {
+
+        > div {
+            width: 100%;
             max-width: 400px;
-            box-shadow: 3px 3px 6px #888;
-            object-fit: cover;
+        }
+
+        img.pub-zoomable {
+            cursor: zoom-in;
+        }
+
+        img,
+        video {
+            width: 100%;
+            aspect-ratio: 3 / 2;
+            object-fit: contain;
+            object-position: center;
         }
     }
-    
+
     .paper-box-text{
         max-width: 100%;
         order: 1;
+        font-size: 0.95em;
+
+        li {
+            margin-bottom: 0.35em;
+        }
     }
-    
+
     @include breakpoint($medium) {
+        /* compact thumbnail sized to roughly match the text block height */
         .paper-box-image{
             justify-content: left;
-            min-width: 200px;
-            max-width: 40%;
+            flex: 0 0 240px;
+            width: 240px;
+            min-width: 240px;
+            max-width: 240px;
             order: 1;
         }
-        
+
         .paper-box-text{
             justify-content: left;
             padding-left: 2em;
-            max-width: 60%;
+            flex: 1;
+            max-width: none;
             order: 2;
         }
 
+    }
+
+    /* entry without a teaser image: let the text span the full width */
+    .paper-box-text:only-child {
+        padding-left: 0;
+        max-width: 100%;
     }
 
 
 }
 
 $scroll_offset : 2em;
-h1:before, .anchor:before { 
-    content: ''; 
-    display: block; 
-    position: relative; 
-    width: 0; 
-    height: $scroll_offset; 
+h1:before, .anchor:before {
+    content: '';
+    display: block;
+    position: relative;
+    width: 0;
+    height: $scroll_offset;
     margin-top: -$scroll_offset;
 }
 
-.badge {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    position: absolute;
-    margin-top: .5em;
-    margin-left: -.5em;
-    color: white;
-    background-color: #00369f;
-    font-size: .8em;
+/* click-to-enlarge overlay for publication thumbnails */
+.pub-lightbox {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(17, 24, 39, 0.88);
+    cursor: zoom-out;
+
+    img {
+        max-width: 92vw;
+        max-height: 92vh;
+        width: auto;
+        height: auto;
+    }
+}
+
+/* venue tag after each paper title */
+.pub-venue {
+    display: inline-block;
+    padding: 0.05em 0.7em;
+    margin-left: 0.25em;
+    color: #fff;
+    background: $accent-navy;
+    border-radius: 4px;
+    font-size: 0.85em;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    vertical-align: 0.1em;
+    white-space: nowrap;
+}
+
+/* --- Sidebar / author profile ------------------------------------------ */
+
+.author__avatar img {
+    border-radius: 50%;
+
+    @include breakpoint($large) {
+        padding: 0;
+        border: 1px solid $border-color;
+    }
+}
+
+.sidebar .author__name {
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    color: darken($text-color, 12%);
+}
+
+.author__bio {
+    color: mix(#fff, $text-color, 20%);
+    font-size: 0.9em;
+}
+
+.author__email {
+    margin-top: 0.4em;
+    color: mix(#fff, $text-color, 15%);
+    font-size: 0.85em;
+    line-height: 1.4;
+    word-break: keep-all;
+}
+
+.author__urls a:hover,
+.author__urls_sm a:hover {
+    color: $info-color;
+    text-decoration: none;
+}
+
+/* --- Masthead navigation ----------------------------------------------- */
+
+.greedy-nav {
+    background: transparent;
+
+    a {
+        font-weight: 500;
+        color: #4a5568;
+
+        &:hover {
+            color: darken($text-color, 15%);
+        }
+    }
+
+    button {
+        background-color: $accent-navy;
+        border-radius: 6px;
+    }
+}
+
+.masthead__menu-item--lg a {
+    color: darken($text-color, 12%);
 }
