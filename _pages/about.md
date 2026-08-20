@@ -26,7 +26,7 @@ Hello! I’m Baiqi Li, a PhD student in Computer Science at the University of No
 - *2024.06* Our workshop paper [GenAI-Bench: A Holistic Benchmark for Compositional Text-to-Visual Generation](https://openreview.net/forum?id=hJm7qnW3ym) was selected as **the Best Paper** at the SynData4CV workshop @ CVPR 2024.
 - *2024.06* We introduced **GenAI-Bench** for evaluating leading image and video generation models on various aspects of compositional text-to-visual generation: [GenAI-Bench: Evaluating and Improving Compositional Text-to-Visual Generation](https://arxiv.org/pdf/2406.13743).
 - *2024.06* We proposed a semi-automated approach to collect a **vision-centric** benchmark, **NaturalBench**, for reliably evaluating VLMs: [NaturalBench: Evaluating Vision-Language Models on Natural Adversarial Samples](https://arxiv.org/abs/2410.14669).
-- *2024.04* We introduced VQAScore for evaluating the prompt alignment of text-to-image/video/3D models: [Evaluating Text-to-Visual Generation with Image-to-Text Generation](https://arxiv.org/pdf/2404.01291.pdf).
+- *2024.04* We introduced **VQAScore** for evaluating the prompt alignment of text-to-image/video/3D models: [Evaluating Text-to-Visual Generation with Image-to-Text Generation](https://arxiv.org/pdf/2404.01291.pdf).
 
 
 # Publications
