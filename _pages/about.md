@@ -20,6 +20,7 @@ redirect_from:
 Hello! I’m Baiqi Li, a PhD student in Computer Science at the University of North Carolina at Chapel Hill (Fall 2025 – present), advised by **Gedas Bertasius**. My research focuses on video reasoning, video generation, and embodied AI. Before joining UNC, I was fortunate to work with **Deva Ramanan** at Carnegie Mellon University.
 
 # News
+- *2026.08* Our paper [TimeBlind: A Spatio-Temporal Compositionality Benchmark for Video LLMs](https://arxiv.org/abs/2602.00288) was accepted to the **EMNLP 2026** Main Conference.
 - *2026.06* We introduced **WatchAct**, a benchmark for behavior-grounded robot manipulation: [WatchAct: A Benchmark for Behavior-Grounded Robot Manipulation](https://arxiv.org/pdf/2606.26443).
 - *2026.02* We introduced **TimeBlind**, a diagnostic benchmark for compositional spatio-temporal understanding of video LLMs: [TimeBlind: A Spatio-Temporal Compositionality Benchmark for Video LLMs](https://arxiv.org/abs/2602.00288).
 - *2024.09* Our paper [NaturalBench: Evaluating Vision-Language Models on Natural Adversarial Samples](https://arxiv.org/abs/2410.14669) was accepted to **NeurIPS 2024**.
@@ -45,7 +46,7 @@ Hello! I’m Baiqi Li, a PhD student in Computer Science at the University of No
 <div class='paper-box'><div class='paper-box-image'><div><img src='papers/timeblind/images/timeblind_teaser.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**TimeBlind: A Spatio-Temporal Compositionality Benchmark for Video LLMs** <span class="pub-venue">arXiv</span>
+**TimeBlind: A Spatio-Temporal Compositionality Benchmark for Video LLMs** <span class="pub-venue">EMNLP Main</span>
 
 **Baiqi Li**, [Kangyi Zhao](https://openreview.net/profile?id=~Kangyi_Zhao1), [Ce Zhang](https://ceezh.github.io/), [Chancharik Mitra](https://chancharikmitra.github.io/), [Jean de Dieu Nyandwi](https://nyandwi.com/), [Gedas Bertasius](https://www.gedasbertasius.com/)
 
