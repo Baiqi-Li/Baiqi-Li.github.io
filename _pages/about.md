@@ -94,8 +94,8 @@ Hello! I’m Baiqi Li, a PhD student in Computer Science at the University of No
 - 2024.01 – 2025.06, Research Assistant, Carnegie Mellon University.
 
 # Others
+- Workshop Organizer: Co-organizer of the Workshops on Transformers for Vision and Multimodal AI (T4V) and CV4Small at CVPR 2026.
 - Teaching Assistant, COMP 669: Vision Transformers, Fall 2026.
 - Teaching Assistant, COMP 577: Introduction to Computer Vision, Fall 2026.
 - Reviewer: NeurIPS, ICLR, ICML, CVPR, ECCV, etc.
-
 
